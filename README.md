@@ -45,8 +45,13 @@ In order to run this code, you'll need to ensure you have Tensorflow, Scikit-Lea
 From your command line, run the following commands:
 
 pip install tensorflow
+
 pip install scikit-learn
+
 pip install pandas
+
 pip install numpy
+
 pip install matplotlib
+
 
