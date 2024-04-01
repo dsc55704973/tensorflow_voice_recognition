@@ -1,4 +1,8 @@
-Thank you for reviewing my Jupyter Notebook, which exhibits a neural network model I developed with Tensorflow.  The model is trained on a dataset featuring comprehensive parameters of the human voice (please review section below dedicated to describing the dataset).  Development of the neural network was straight-forward given how lean the dataset actually is (3,168 records, 20 features) and how inherently robust neural network models are.  
+** Tensorflow Neural Network: Gender Recognition by Voice and Speech Analysis **
+
+** SUMMARY **
+
+Thank you for reviewing this project, which exhibits a neural network model I developed with Tensorflow.  The model is trained on a dataset featuring comprehensive parameters of the human voice (please review section below dedicated to describing the dataset).  Development of the neural network was straight-forward given how lean the dataset actually is (3,168 records, 20 features) and how inherently robust neural network models are.  
 
 Essentially, I trained a model here that will predict the gender of a speaker given these 20 voice parameters.  The end result is a model that generated predictions with 98.23% accuracy, and only 14 wrong predictions!  Pretty remarkable.  The steps to execute this model are generalized as follows: 
 
@@ -24,6 +28,21 @@ I am proud of my work here and am excited to continue to leverage the power of d
 
 ** Exhibit B: Confusion Matrix **
 <img width="837" alt="Exhibit B Confusion Matrix" src="https://github.com/dsc55704973/tensorflow_voice_recognition/assets/66639071/c175366e-7d24-4612-a46f-a6a4ea6c634f">
+
+** TECHNICAL **
+
+In order to run this code, you'll need to ensure you have Tensorflow, Scikit-Learn, and the other imported packages loaded on your machine.  
+
+From your command line, run the following commands:
+
+**
+pip install tensorflow
+pip install scikit-learn
+pip install pandas
+pip install numpy
+pip install matplotlib
+**
+
 
 ** Exhibit C: Predictions vs. Actuals (Encoded Values) **
 <img width="774" alt="Exhibit C Predictions vs  Actuals" src="https://github.com/dsc55704973/tensorflow_voice_recognition/assets/66639071/66a5d76f-b737-4779-b6a3-9675def883e3">
