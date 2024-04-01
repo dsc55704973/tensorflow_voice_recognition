@@ -7,11 +7,17 @@ Thank you for reviewing this project, which exhibits a neural network model I de
 Essentially, I trained a model here that will predict the gender of a speaker given these 20 voice parameters.  The end result is a model that generated predictions with 98.23% accuracy, and only 14 wrong predictions!  Pretty remarkable.  The steps to execute this model are generalized as follows: 
 
 Step 1: EDA
+
 Step 2: Pre-Processing
+
 Step 3: Model Development
+
 Step 4: Quantify the Trained Model
+
 Step 5: Make Predictions
+
 Step 6: Evaluate Test Results
+
 
 There really wasn't much to the EDA step, except that I just took a cursory look at the features.  In the pre-processing step, I used MinMaxScaler and LabelEncoder to scale the X features and to encode the y variable, and of course TrainTestSplit to get the training and test sets (33% default split).  Model development was also simple, as it only required initiating a sequential model, compiling it, and fitting the model to the categorical X training data with 60 epochs.  Quantifying the model simply involved computing loss and accuracy using evaluate().  In the Making Predictions step, I executed such predictions on scaled test dataset, and then converted the probabilities to class labels to view predictions alongside actuals.  The final step of evaluation entailed recomputing loss and accuracy manually by first computing how many false predictions were made, and finally taking a look at a confusion matrix using Scikit-Learn.
 
